@@ -1,70 +1,114 @@
+h1 {
+	text-align: center;
+}
 
 p {
-  text-align: center;
-}
-/* main image */
-.title-image {
-    width: 45%;
-    height: 30%;
-    padding-top: 10px; 
-    margin: 0 auto;
-}
-/* images in right sidebar */
-.hot-image {
-    width: 90%;
-    height: 90%;
-    padding-top: 10px; 
-    margin: 0 auto;
+	text-align: center;
 }
 
-/* Style the navigation menu */
-.main-nav {
-  width: 100%;
-  background: #444;
-  min-height: 60px;
-
-  /*position: fixed;*/
-  text-align: left;
-}
-.nav {
-  display: flex;
-  justify-content: space-around;
-  font-weight: 700;
-  list-style-type: none;
-  margin: 10 auto;
-  padding: 10px;
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: lightgray;
 }
 
-.main-nav input[type=text] {
-  float: right;
-  padding: 8px;
-  margin: auto;
-  font-size: 16px;
+#title {
+	font-size: 18px
 }
-.main-nav .search-bar {
+
+.navbar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+	position: fixed;
+}
+
+.navbar a {
 	float: right;
-	padding-left: 40px;
+	padding: 18px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
 }
-li {
-	color: azure;
-}
-/* right sidebar */
-aside {
-  background: #444;
-  height: 960px;
-  width: 110px;
-  color: #fff;
-  float: right;
-  padding: 30px;
-  font-size: 12px;
 
+.navbar a:hover {
+	background-color: #000;
+}
+
+
+/* main image */
+
+.title-image {
+	max-width: 60%;
+	height: auto;
+	border-radius: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* images in right sidebar */
+
+.hot-image {
+	width: 90%;
+	height: 90%;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+
+/* left sidebar */
+
+#left-side {
+	background: #444;
+	height: 1280px;
+	width: 110px;
+	color: #fff;
+	float: left;
+	padding: 30px;
+	font-size: 12px;
+	margin-top: 20px
+}
+
+.profile-image {
+	margin: auto;
+	border-radius: 50%;
+}
+
+.left-menu a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.left-menu a:hover {
+	background-color: black;
+}
+
+
+/* right sidebar */
+
+aside {
+	background: #444;
+	height: 1300px;
+	width: 110px;
+	color: #fff;
+	float: right;
+	padding: 30px;
+	font-size: 12px;
+}
+
+h3 {
+	text-align: center;
 }
 
 aside .widget {
-  margin: 50px 0;
+	margin: 50px 0;
 }
 
-/* border holders(please remove when finished with project) */
+
+/* border holders(please remove when finished with project) -CH */
 
 #about {
 	border-style: dotted;
@@ -73,3 +117,14 @@ aside .widget {
 #welcome {
 	border-style: dotted;
 }
+
+#blank-space {
+	padding-top: 60px;
+}
+
+/* contact form */
+div.form {
+	display: block;
+	text-align: center;
+}
+
