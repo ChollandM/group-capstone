@@ -5,7 +5,7 @@
       <meta charset="utf-8">
       <title>Vendors</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" type ="text/css" href="stylesheet.css">
       <script src="https://kit.fontawesome.com/d688da91fc.js" crossorigin="anonymous"></script>
 	  <?PHP
 
@@ -253,10 +253,9 @@ function runQuery($sql, $msg, $echoSuccess) {
   
 	 </fieldset>
 
-	 
+<div id="crudButtons"> 
 	<button name="new"    
            value="new"  
-           style="float:left;"
            onclick="this.form.submit();">
            Create
    </button>
@@ -264,7 +263,6 @@ function runQuery($sql, $msg, $echoSuccess) {
 	<br>
 	<button name="update" 
            value="update" 
-           style="float:left;"
            onclick="this.form.submit();">
            Update
 	</button>
@@ -272,12 +270,12 @@ function runQuery($sql, $msg, $echoSuccess) {
 	<br>
    <button name="delete" 
            value="delete"
-           style="float:left;"
            onclick="this.form.submit();">
            Delete
    </button>
     <br/>
- <br/>
+    <br/>
+</div>
    
 </form>
 <?php
