@@ -39,13 +39,12 @@ body {
 /* main image */
 
 .title-image {
-	max-width: 40%;
+	max-width: 60%;
 	height: auto;
 	border-radius: 20%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
 }
 
 
@@ -78,15 +77,13 @@ body {
 }
 
 .left-menu a {
-	font-size: 14px;
-	padding: 10px;
+	font-size: 18px;
 	color: white;
 	text-decoration: none;
 }
 
 .left-menu a:hover {
 	background-color: black;
-	border-radius: 10%;
 }
 
 
@@ -125,30 +122,9 @@ aside .widget {
 	padding-top: 60px;
 }
 
-/* contact.html form */
+/* contact form */
 div.form {
 	display: block;
 	text-align: center;
 }
-/* account.html */
-table {
-	width: 60%;
-	margin-left: 20%;
-}
 
-td, th {
-  border: 2px solid #dddddd;
-  text-align: left;
-  padding: 20px;
-}
-
-tr:nth-child(even) {
-  background-color: #808080;
-}
-
-table img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
