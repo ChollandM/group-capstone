@@ -83,6 +83,8 @@ function loginUser($conn, $user, $password){
         $_SESSION["user_id"] = $userExist["user_id"];
         $_SESSION["fName"] = $userExist["first_name"];
         $_SESSION["username"] = $userExist["username"];
+        $_SESSION["address"] = $userExist["address"];
+        $_SESSION["balance"] = $userExist["balance"];
         header("location: index.php");
         exit();
     }
