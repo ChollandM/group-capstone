@@ -41,7 +41,7 @@ const REVIEW_KEYWORDS = ["review", "feedback", "rating", "evaluation", "assessme
  ***    ACCOUNT RESPONSES 
  *******************************/
 
-const ACCOUNT_RESPONSE = "Ok! I'll bring you to your account page!";
+const ACCOUNT_RESPONSE = "Ok! Here's a link to your account page!</br></br><a class='chatbotNav' href='account.php'>Account</a>";
 
 /*******************************
  ***    ACCOUNT ARRAYS
