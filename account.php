@@ -3,7 +3,7 @@
 <html>
    <head>
       <meta charset="utf-8">
-      <title>About</title>
+      <title>Account</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="style.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -15,6 +15,25 @@
    </head>
    <body>
       <header>
+		 <?php
+
+$id = $_SESSION["username"];
+$con = mysqli_connect('novio-dev-1.cptgeqlvlgbo.us-east-1.rds.amazonaws.com',
+					  'cspuser',
+					  'admin.csp1',
+					  'Newzeen') 
+					or die('Unable To connect');
+if(count($_POST)>0) {
+$result = mysqli_query($con,"SELECT *from username WHERE name='" . $id . "'");
+$row=mysqli_fetch_array($result);
+if($_POST["currentPassword"] == $row["password"] && $_POST["newPassword"] == $row["confirmPassword"] ) {
+mysqli_query($con,"UPDATE username set password='" . $_POST["newPassword"] . "' WHERE name='" . $id . "'");
+$message = "Password Changed Sucessfully";
+} else{
+ $message = "Current password does not match";
+}
+}
+?>
          <!-- begin nav menu -->
          <div class="navbar">
             <a style="float: right"><input type="text" placeholder="Search..."></a>
@@ -24,6 +43,12 @@
             <a href="contact.php">Contact</a>
             <!-- Account page link if user logged in. Sign in button if not-->
             <?php
+			 //Database link
+			 define("SERVER_NAME","novio-dev-1.cptgeqlvlgbo.us-east-1.rds.amazonaws.com");
+			 define("DBF_USER_NAME", "cspuser");
+			 define("DBF_PASSWORD", "admin.csp1");
+			 define("DATABASE_NAME", "Newzeen");
+
                 if (isset($_SESSION["username"])){
                     echo "<a href='account.php'>Account</a>";
                 }
@@ -83,8 +108,25 @@
          </div>
       </aside>
       <!-- end bottom right sidebar -->
-<section id="blank-space">
-	         </section>
+	   <br>
+	   <br>
+	   <br>
+<h3 align="center">CHANGE PASSWORD</h3>
+<div><?php if(isset($message)) { echo $message; } ?></div>
+<form method="post" action="" align="center">
+Current Password:<br>
+<input type="password" name="currentPassword"><span id="currentPassword" class="required"></span>
+<br>
+New Password:<br>
+<input type="password" name="newPassword"><span id="newPassword" class="required"></span>
+<br>
+Confirm Password:<br>
+<input type="password" name="confirmPassword"><span id="confirmPassword" class="required"></span>
+<br><br>
+<input type="submit">
+</form>
+<br>=
+<br>
       <section id="misc">
          <p>----------</p>
       </section>

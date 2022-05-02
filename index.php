@@ -86,18 +86,13 @@
       <img src="images/food.jpg" alt="Photo of carrots and green onions" class="title-image">
       <section id="welcome">
          <h1>Welcome</h1>
-         <p class="sub-head">sub heading or hook could go here...</p>
+         <p class="sub-head">NewZeen is here for you!</p>
       </section>
       <section id="about">
-         <h1>Lorem Ipsum</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar dui vitae pulvinar 
-            pulvinar. Curabitur mattis sit amet ipsum sit amet accumsan. Nam porttitor leo quis 
-            aliquet luctus. Integer finibus augue justo, vitae blandit risus vulputate nec. 
-            Nulla id metus in nulla bibendum suscipit non in mauris. Nullam interdum ante libero, 
-            ut pretium quam pretium eget. Nam lobortis sem pulvinar mi auctor eleifend. 
-            Duis ultricies semper enim. Maecenas tincidunt nulla a urna ultricies bibendum.
+         <h1>Take a look around...</h1>
+         <p>More information coming soon!
          </p>
-         <p>Pellentesque a pharetra massa, bibendum interdum mi. Suspendisse rhoncus metus dolor, lacinia accumsan sem interdum nec. Nullam mollis elit sit amet sem efficitur consequat. Sed dignissim ipsum libero, eu ullamcorper libero mattis a. Donec sed ex quis leo efficitur dignissim et a est. Phasellus ante sem, auctor vitae nulla sed, eleifend egestas metus. Proin at orci dolor. Fusce consequat sed massa a dapibus. Maecenas tristique, diam eget porta efficitur, nisl mi fermentum leo, at vestibulum diam neque sed justo. Nunc iaculis suscipit sollicitudin.</p>
+         <p>Stay tuned!</p>
          <p>Maecenas varius mollis tempor. Curabitur luctus magna vitae blandit tincidunt. Vestibulum lobortis congue velit. Nunc ac semper diam, at porta tortor. Cras in ex justo. Duis accumsan iaculis laoreet. Nam quis justo convallis, suscipit mi ut, varius ante.
          <p>Phasellus laoreet sapien vel nibh fermentum auctor. Duis porta ac turpis ut euismod. Fusce pulvinar lacinia ligula mollis aliquet. Sed gravida efficitur nisi id interdum. Nullam ac suscipit ante. Quisque eu libero at urna egestas posuere at in lacus. Proin fermentum risus quis massa vestibulum tristique. Mauris id dui ac leo auctor tempus. Aliquam molestie tincidunt urna, nec dictum tortor gravida at. Proin quis mauris posuere, euismod lacus efficitur, dignissim metus. Aliquam ante augue, imperdiet eget dignissim nec, commodo non elit. Suspendisse commodo dictum tincidunt. Morbi congue purus risus, eget fringilla lorem egestas ut. Sed et lacinia ligula. Nullam vel condimentum lectus.</p>
          <p>Suspendisse interdum elit condimentum lectus consequat aliquam. Quisque aliquet bibendum justo quis volutpat. Etiam eget nunc ligula. Sed laoreet suscipit odio, quis euismod mauris vulputate vel. Duis risus sapien, fermentum eu tincidunt ut, ultrices at arcu. Proin nec felis quis arcu egestas vulputate. Quisque porttitor, leo id ullamcorper aliquam, nisi risus scelerisque tellus, id suscipit arcu tortor at justo. Sed eget egestas risus. Quisque non interdum tellus. Proin massa leo, fringilla nec tortor quis, sodales consequat tellus. Proin fringilla faucibus tempus. Vivamus posuere lectus nec ullamcorper bibendum. Pellentesque ultricies, nulla a molestie dictum, urna nisi ultricies sapien, congue pharetra sapien dui a ex. 

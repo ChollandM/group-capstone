@@ -83,6 +83,7 @@
          </div>
       </aside>
       <!-- end bottom right sidebar -->
+	   
       <section id="blank-space">
       </section>
 	   <h1>Contact Info</h1>
